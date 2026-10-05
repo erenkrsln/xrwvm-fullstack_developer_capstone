@@ -30,11 +30,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'erenkrsln44-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
+    '127.0.0.1',
+    'erenkrsln44-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://erenkrsln44-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
+    'https://erenkrsln44-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
 ]
 
 REST_FRAMEWORK = {
