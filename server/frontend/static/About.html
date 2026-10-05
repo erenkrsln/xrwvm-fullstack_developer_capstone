@@ -1,68 +1,99 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarText" aria-controls="navbarText"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/about/">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/contact/">Contact Us</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
+    <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+      
+      <div class="banner" name="about-header" style="padding: 25px; text-align: center;">
+        <h1>About Us</h1>
+        <p>
+          Welcome to Best Cars dealership, home to the best cars in North America.
+          We deal in selling domestic and imported cars at reasonable prices.
+        </p>
+
+        <p>
+          Our goal is to make buying a car simple, transparent, and enjoyable.
+          Our experienced team helps customers find vehicles that match their
+          needs, preferences, and budget while providing reliable and friendly service.
+        </p>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+      <div style="display: flex; flex-direction: row; justify-content: space-around; margin: auto; padding: 20px; gap: 20px;">
+
+        <div class="card" style="width: 30%;">
+          <img class="card-img-top" src="/static/person.png" alt="Michael Anderson">
+          <div class="card-body">
+            <p class="title"><strong>Michael Anderson</strong></p>
+            <p>Sales Manager</p>
+            <p class="card-text">
+              Michael has more than ten years of experience in the automotive industry.
+              He helps customers find the right vehicle and ensures a smooth buying experience.
+            </p>
+            <p>michael.anderson@bestcars.com</p>
+          </div>
         </div>
+
+        <div class="card" style="width: 30%;">
+          <img class="card-img-top" src="/static/person.png" alt="Sarah Johnson">
+          <div class="card-body">
+            <p class="title"><strong>Sarah Johnson</strong></p>
+            <p>Customer Advisor</p>
+            <p class="card-text">
+              Sarah specializes in customer support and vehicle consultation.
+              She is dedicated to helping customers compare vehicles and make informed decisions.
+            </p>
+            <p>sarah.johnson@bestcars.com</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 30%;">
+          <img class="card-img-top" src="/static/person.png" alt="David Miller">
+          <div class="card-body">
+            <p class="title"><strong>David Miller</strong></p>
+            <p>Service Specialist</p>
+            <p class="card-text">
+              David supports customers with vehicle maintenance and after-sales service.
+              He focuses on keeping every vehicle reliable, safe, and ready for the road.
+            </p>
+            <p>david.miller@bestcars.com</p>
+          </div>
+        </div>
+
       </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+  </div>
+</body>
 </html>
+```

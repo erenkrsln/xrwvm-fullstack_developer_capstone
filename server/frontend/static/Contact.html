@@ -1,71 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Best Cars Dealership</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
+  <title>Contact Us - Best Cars Dealership</title>
 
-        nav {
-            background-color: #222;
-            padding: 15px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-right: 20px;
-            font-weight: bold;
-        }
-
-        nav a.active {
-            color: #4da6ff;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        .contact-info {
-            margin-top: 30px;
-            line-height: 1.8;
-        }
-    </style>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About Us</a>
-        <a href="/contact/" class="active">Contact Us</a>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light"
+       style="background-color: darkturquoise; height: 1in;">
 
-    <div class="container">
-        <h1>Contact Us</h1>
+    <div class="container-fluid">
 
-        <div class="contact-info">
-            <p><strong>Best Cars Dealership</strong></p>
-            <p>123 Main Street, New York, NY 10001</p>
-            <p>Phone: +1 555 123 4567</p>
-            <p>Email: contact@bestcars.com</p>
-            <p>Opening Hours: Monday - Friday, 9:00 AM - 6:00 PM</p>
-        </div>
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link"
+               style="font-size: larger;"
+               href="/">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+               style="font-size: larger;"
+               href="/about/">
+              About Us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active"
+               style="font-size: larger;"
+               href="/contact/">
+              Contact Us
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
     </div>
 
+  </nav>
+
+
+  <div class="card"
+       style="width: 80%; margin: auto; margin-top: 5%;">
+
+    <div class="banner"
+         style="padding: 25px; text-align: center;">
+
+      <h1>Contact Us</h1>
+
+      <p>
+        We would be happy to answer any questions about our vehicles,
+        services, or dealership.
+      </p>
+
+    </div>
+
+
+    <div style="padding: 30px;">
+
+      <h3>Best Cars Dealership</h3>
+
+      <p>
+        <strong>Address:</strong>
+        123 Main Street, New York, NY 10001
+      </p>
+
+      <p>
+        <strong>Phone:</strong>
+        +1 555 123 4567
+      </p>
+
+      <p>
+        <strong>Email:</strong>
+        contact@bestcars.com
+      </p>
+
+      <p>
+        <strong>Opening Hours:</strong>
+        Monday - Friday, 9:00 AM - 6:00 PM
+      </p>
+
+      <p>
+        Our team is available to help you find the right vehicle,
+        answer questions about pricing, and assist with your dealership experience.
+      </p>
+
+    </div>
+
+  </div>
+
 </body>
+
 </html>
+```
